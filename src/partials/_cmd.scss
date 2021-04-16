@@ -1,14 +1,17 @@
 div.cmd {
+  padding: 20px 0;
+  justify-content: flex-end;
   ul {
+    align-items: center;
     li {
+      display: inline-block;
+      margin: 0 10px;
       i {
         color: $cmdicon;
       }
-      p {
+      span {
         color: $cmdcolor;
       }
     }
   }
 }
-
-.cmd

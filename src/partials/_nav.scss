@@ -1,0 +1,20 @@
+.nav {
+padding: 8px 0;
+}
+
+.logo {
+  img {
+    width: 100px;
+  }
+}
+
+.nav-list {
+  align-items: center;
+  ul {
+    li {
+      display: inline-block;
+      color: $primarycolor;
+      margin: 0 20px;
+    }
+  }
+}

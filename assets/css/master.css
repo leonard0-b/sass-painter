@@ -5,6 +5,11 @@
   list-style: none;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .flex {
   display: flex;
 }
@@ -13,9 +18,37 @@ header {
   background-color: #000;
 }
 
+div.cmd {
+  padding: 20px 0;
+  justify-content: flex-end;
+}
+div.cmd ul {
+  align-items: center;
+}
+div.cmd ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
 div.cmd ul li i {
   color: #009cff;
 }
-div.cmd ul li p {
+div.cmd ul li span {
   color: #989898;
+}
+
+.nav {
+  padding: 8px 0;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav-list {
+  align-items: center;
+}
+.nav-list ul li {
+  display: inline-block;
+  color: #fff;
+  margin: 0 20px;
 }
