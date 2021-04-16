@@ -1,0 +1,26 @@
+{
+  "name": "sass-painter",
+  "version": "1.0.0",
+  "description": "Esercizio Boolean",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx mix -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonard0-b/sass-painter.git"
+  },
+  "author": "Leonardo Bongianni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonard0-b/sass-painter/issues"
+  },
+  "homepage": "https://github.com/leonard0-b/sass-painter#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.16",
+    "postcss": "^8.1.14",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1"
+  }
+}
