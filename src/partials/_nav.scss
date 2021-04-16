@@ -1,10 +1,6 @@
-.nav {
-padding: 8px 0;
-}
-
 .logo {
   img {
-    width: 100px;
+    width: 95px;
   }
 }
 
@@ -13,13 +9,18 @@ padding: 8px 0;
   opacity: 0.7;
 }
 
+.nav {
+  padding-top: 10px;
+}
+
 .nav-list {
   align-items: center;
   ul {
     li {
       display: inline-block;
       color: $primarycolor;
-      margin: 0 20px;
+      margin: 0 25px;
+      font-size: $primaryfont;
     }
   }
 }
