@@ -44,6 +44,11 @@ div.cmd ul li span {
   width: 100px;
 }
 
+.fa-angle-down {
+  font-size: 10px;
+  opacity: 0.7;
+}
+
 .nav-list {
   align-items: center;
 }
