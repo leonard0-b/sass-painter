@@ -1,0 +1,46 @@
+main {
+  background-color: $mainbg;
+}
+
+.main-title {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  h2 {
+    font-weight: $subtitleweight;
+  }
+}
+
+.moduls {
+  .module {
+    margin: 0 10px;
+    .top {
+      img {
+        width: 100%;
+      }
+    }
+    .bottom {
+      padding: $cardpadding;
+      font-size: 17px;
+      background-color: #fff;
+      h3 {
+        padding-bottom: 12px;
+        span {
+          color: $linkcolor;
+          text-transform: uppercase;
+          font-style: italic;
+          margin-right: 5px;
+        }
+      }
+      p {
+        padding-bottom: 12px;
+        font-weight: 300;
+      }
+      a {
+        padding-bottom: 12px;
+        color: $linkcolor;
+        font-weight: $subtitleweight;
+        font-size: 15px;
+      }
+    }
+  }
+}

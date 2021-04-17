@@ -1,5 +1,10 @@
 .container {
-  width: 1200px;
+  max-width: 1170px;;
+  margin: 0 auto;
+}
+
+.container-main {
+  width: 1250px;
   margin: 0 auto;
 }
 
@@ -13,4 +18,12 @@
 
 .w50perc {
   width: calc(100% / 2);
+}
+
+.w33perc {
+  width: calc(100% / 3 - 20px);
+}
+
+.text-center {
+  text-align: center;
 }

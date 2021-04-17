@@ -8,8 +8,17 @@
   text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6, p, a {
+  font-style: normal;
+}
+
 .container {
-  width: 1200px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.container-main {
+  width: 1250px;
   margin: 0 auto;
 }
 
@@ -23,6 +32,14 @@
 
 .w50perc {
   width: calc(100% / 2);
+}
+
+.w33perc {
+  width: calc(100% / 3 - 20px);
+}
+
+.text-center {
+  text-align: center;
 }
 
 nav {
@@ -120,4 +137,47 @@ div.cmd ul li span {
   background-color: #000;
   color: #fff;
   font-weight: bold;
+}
+
+main {
+  background-color: #e8e8e8;
+}
+
+.main-title {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.main-title h2 {
+  font-weight: lighter;
+}
+
+.moduls .module {
+  margin: 0 10px;
+}
+.moduls .module .top img {
+  width: 100%;
+}
+.moduls .module .bottom {
+  padding: 20px 20px;
+  font-size: 17px;
+  background-color: #fff;
+}
+.moduls .module .bottom h3 {
+  padding-bottom: 12px;
+}
+.moduls .module .bottom h3 span {
+  color: #009cff;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-right: 5px;
+}
+.moduls .module .bottom p {
+  padding-bottom: 12px;
+  font-weight: 300;
+}
+.moduls .module .bottom a {
+  padding-bottom: 12px;
+  color: #009cff;
+  font-weight: lighter;
+  font-size: 15px;
 }
