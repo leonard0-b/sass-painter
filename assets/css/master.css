@@ -8,7 +8,7 @@
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p, a, li {
   font-style: normal;
 }
 
@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .w33perc {
   width: calc(100% / 3 - 20px);
+}
+
+.w25perc {
+  width: calc(100% / 4);
 }
 
 .text-center {
@@ -139,10 +143,6 @@ div.cmd ul li span {
   font-weight: bold;
 }
 
-main {
-  background-color: #e8e8e8;
-}
-
 .main-title {
   padding-top: 30px;
   padding-bottom: 15px;
@@ -209,9 +209,19 @@ main {
   color: #000;
   font-weight: lighter;
   background-color: #fff;
+  border: 0;
 }
 .cards .card-text a:hover {
   background-color: rgba(255, 255, 255, 0.5);
+}
+.cards .card-text.wacom {
+  background-color: #3c1567;
+}
+.cards .card-text.painter {
+  background-color: #3c3c3c;
+}
+.cards .card-text.business {
+  background-color: #0072bc;
 }
 .cards .card-img {
   position: relative;
@@ -226,4 +236,58 @@ main {
   left: 0;
   width: 80%;
   height: 80%;
+}
+
+main {
+  padding-bottom: 50px;
+  background-color: #e8e8e8;
+}
+
+footer {
+  background-color: #e8e8e8;
+}
+
+.footer-list {
+  width: 100%;
+}
+.footer-list .footer-col ul li:first-child {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+.footer-list .footer-col ul {
+  font-size: 13px;
+}
+.footer-list .footer-col ul li {
+  margin-bottom: 7px;
+  font-weight: lighter;
+}
+
+.icons {
+  margin-top: 20px;
+}
+.icons i {
+  width: 38px;
+  font-size: 20px;
+  text-align: center;
+  padding: 7px;
+  margin-right: 5px;
+  color: #fff;
+}
+.icons i.fa-instagram {
+  background-color: #e4405f;
+}
+.icons i.fa-facebook-f {
+  background-color: #3b5998;
+}
+.icons i.fa-twitter {
+  background-color: #1da1f2;
+}
+.icons i.fa-youtube {
+  background-color: #cd201f;
+}
+.icons i.fa-pinterest-p {
+  background-color: #bd081c;
+}
+.icons i.fa-rss {
+  background-color: #ff8d00;
 }

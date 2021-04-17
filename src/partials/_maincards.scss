@@ -17,9 +17,22 @@
       a {
         @include button;
         background-color: #fff;
+        border: 0;
         &:hover {
           background-color: rgba(255, 255, 255, 0.5);
       }
+    }
+  }
+
+  .card-text {
+    &.wacom {
+      background-color:$wacom;
+    }
+    &.painter {
+      background-color: $painter;
+    }
+    &.business {
+      background-color: $business;
     }
   }
 

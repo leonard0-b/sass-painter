@@ -1,0 +1,52 @@
+footer {
+  background-color: $bodybg;
+}
+
+.footer-list {
+  width: 100%;
+  .footer-col {
+    ul {
+      li:first-child {
+        margin-bottom: 8px;
+        font-weight: 400;
+      }
+      & {
+        font-size: 13px;
+      }
+      li {
+        margin-bottom: 7px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+.icons {
+  margin-top: 20px;
+  i {
+    width: 38px;
+    font-size: 20px;
+    text-align: center;
+    padding: 7px;
+    margin-right: 5px;
+    color: #fff;
+    &.fa-instagram {
+      background-color: $instagram;
+    }
+    &.fa-facebook-f {
+      background-color: $facebook;
+    }
+    &.fa-twitter {
+      background-color: $twitter;
+    }
+    &.fa-youtube {
+      background-color: $youtube;
+    }
+    &.fa-pinterest-p {
+      background-color: $pinterest;
+    }
+    &.fa-rss {
+      background-color: $feed;
+    }
+  }
+}
