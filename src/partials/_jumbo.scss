@@ -1,0 +1,51 @@
+.jumbotron {
+  padding: 40px 0px;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron-content {
+  padding: 30px 0;
+}
+
+.jumbotron-logo {
+  padding: 10px 0;
+  img {
+    width: 200px;
+  }
+}
+
+.jumbotron-text {
+  padding: 10px 0;
+  h3 {
+    font-weight: $subtitleweight;
+  }
+}
+
+.jumbotron-subtitle {
+  color: $offer;
+  padding: 20px 0;
+  h4 {
+    font-weight: $subtitleweight;
+  }
+}
+
+.jumbo-btn {
+  padding: 15px 0;
+  a {
+    font-style: normal;
+    margin-right: 10px;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    padding: 8px 15px;
+    color: #000;
+    font-weight: $subtitleweight;
+  }
+}
+.jumbo-btn {
+  a:hover {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+  }
+}
