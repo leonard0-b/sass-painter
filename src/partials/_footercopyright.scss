@@ -1,0 +1,29 @@
+.copyright-banner {
+  background-color: $navcolor;
+  padding: 10px 0;
+}
+
+.container {
+  justify-content: space-between;
+}
+
+.copyright-logo {
+  justify-content: space-between;
+  img {
+    padding-right: 35px;
+  }
+}
+
+.copyright-right {
+  ul {
+    align-items: center;
+    li {
+      color: $cmdcolor;
+      margin-right: 15px;
+      font-size: 13px;
+      &:last-child {
+        color: #fff;
+      }
+    }
+  }
+}

@@ -26,7 +26,14 @@
   color: $offer;
   padding: 20px 0;
   h4 {
+    font-style: italic;
     font-weight: $subtitleweight;
+    &:first-child {
+      font-weight: bold;
+    }
+    &:last-child {
+      font-weight: 400;
+    }
   }
 }
 
