@@ -151,33 +151,79 @@ main {
   font-weight: lighter;
 }
 
-.moduls .module {
+.modules .module {
   margin: 0 10px;
 }
-.moduls .module .top img {
+.modules .module .top img {
   width: 100%;
 }
-.moduls .module .bottom {
+.modules .module .bottom {
   padding: 20px 20px;
   font-size: 17px;
   background-color: #fff;
 }
-.moduls .module .bottom h3 {
+.modules .module .bottom h3 {
   padding-bottom: 12px;
 }
-.moduls .module .bottom h3 span {
+.modules .module .bottom h3 span {
   color: #009cff;
   text-transform: uppercase;
   font-style: italic;
   margin-right: 5px;
 }
-.moduls .module .bottom p {
+.modules .module .bottom p {
   padding-bottom: 12px;
   font-weight: 300;
 }
-.moduls .module .bottom a {
+.modules .module .bottom a {
   padding-bottom: 12px;
   color: #009cff;
   font-weight: lighter;
   font-size: 15px;
+}
+
+.cards {
+  margin-top: 50px;
+  padding: 0 10px;
+  flex-wrap: wrap;
+}
+.cards .card-text {
+  background-color: #3c1567;
+  padding: 70px 50px;
+  color: #fff;
+}
+.cards .card-text h1 {
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.cards .card-text h3 {
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+.cards .card-text a {
+  font-style: normal;
+  margin-right: 10px;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  padding: 8px 15px;
+  color: #000;
+  font-weight: lighter;
+  background-color: #fff;
+}
+.cards .card-text a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.cards .card-img {
+  position: relative;
+}
+.cards .card-img img {
+  width: 100%;
+  height: 100%;
+}
+.cards .card-img img.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
 }
