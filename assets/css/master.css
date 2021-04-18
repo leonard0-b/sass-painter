@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 }
 
 .container-main {
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
 }
 
@@ -198,6 +198,24 @@ div.cmd ul li span {
   color: #000;
 }
 
+@media all and (max-width: 768px) {
+  .modules {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .module {
+    margin: 0 20px;
+  }
+
+  .w33perc {
+    width: calc(100% - 40px);
+  }
+
+  .icons > i {
+    margin-top: 15px;
+  }
+}
 .cards {
   margin-top: 50px;
   padding: 0 10px;
@@ -254,6 +272,24 @@ div.cmd ul li span {
   height: 80%;
 }
 
+@media all and (max-width: 1024px) {
+  .cards {
+    padding: 0;
+  }
+}
+@media all and (max-width: 768px) {
+  .cards {
+    padding: 0;
+  }
+
+  .w50perc {
+    width: 100%;
+  }
+
+  .card-text {
+    height: 400px;
+  }
+}
 main {
   background-color: #e8e8e8;
 }
@@ -310,6 +346,33 @@ footer {
   background-color: #ff8d00;
 }
 
+@media all and (max-width: 767px) {
+  .icons > i {
+    margin-bottom: 15px;
+  }
+}
+@media all and (max-width: 576px) {
+  footer {
+    padding-top: 25px;
+  }
+
+  .footer-list {
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
+  .icons {
+    display: flex;
+  }
+
+  .footer-col {
+    margin-top: 10px;
+  }
+
+  .footer-list .footer-col ul li {
+    width: 150px;
+  }
+}
 .copyright-banner {
   background-color: #000;
   padding: 10px 0;
@@ -336,4 +399,38 @@ footer {
 }
 .copyright-right ul li:last-child {
   color: #fff;
+}
+
+@media all and (max-width: 576px) {
+  .copyright-banner > .container {
+    display: block;
+  }
+
+  .copyright-logo {
+    justify-content: center;
+    margin-left: 40px;
+  }
+
+  .copyright-logo > img {
+    margin-right: 10px;
+    padding-right: 0;
+  }
+
+  .copyright-left {
+    margin-bottom: 15px;
+  }
+
+  .copyright-right > ul {
+    display: inline;
+    padding-left: 15px;
+  }
+
+  .copyright-right > ul > li {
+    display: inline;
+  }
+
+  .copyright-right ul li:last-child {
+    margin-top: 15px;
+    display: block;
+  }
 }

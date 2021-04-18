@@ -51,3 +51,23 @@
     }
   }
 }
+
+@media all and (max-width: 1024px) {
+  .cards {
+    padding: 0;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .cards {
+    padding: 0;
+  }
+  
+  .w50perc {
+    width: 100%;
+  }
+  
+  .card-text {
+    height: 400px;
+  }  
+}

@@ -53,3 +53,32 @@ footer {
     }
   }
 }
+
+@media all and (max-width: 767px) {
+  .icons > i {
+    margin-bottom: 15px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  footer {
+    padding-top: 25px;
+  }
+
+  .footer-list {
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
+  .icons {
+    display: flex;
+  }
+
+  .footer-col {
+    margin-top: 10px;
+  }
+
+  .footer-list .footer-col ul li {
+    width: 150px;
+  }
+}

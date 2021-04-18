@@ -45,3 +45,22 @@
     }
   }
 }
+
+@media all and (max-width: 768px) {
+  .modules {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .module {
+    margin: 0 20px;
+  }
+
+  .w33perc {
+    width: calc(100% - 40px);
+  }
+
+  .icons > i {
+    margin-top: 15px;
+  }
+}

@@ -27,3 +27,37 @@
     }
   }
 }
+
+@media all and (max-width: 576px) {
+  .copyright-banner > .container {
+    display: block;
+  }
+
+  .copyright-logo {
+    justify-content: center;
+    margin-left: 40px;
+  }
+
+  .copyright-logo > img {
+    margin-right: 10px;
+    padding-right: 0;
+  }
+
+  .copyright-left {
+    margin-bottom: 15px;
+  }
+
+  .copyright-right > ul {
+    display: inline;
+    padding-left: 15px;
+  }
+
+  .copyright-right > ul > li {
+    display: inline;
+  }
+
+  .copyright-right ul li:last-child {
+    margin-top: 15px;
+    display: block;
+  }
+}
