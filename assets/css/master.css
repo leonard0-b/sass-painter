@@ -188,9 +188,14 @@ div.cmd ul li span {
 }
 .modules .module .bottom a {
   padding-bottom: 12px;
-  color: #009cff;
   font-weight: lighter;
   font-size: 15px;
+}
+.modules .module .bottom a:last-child {
+  color: #009cff;
+}
+.modules .module .bottom a h3 {
+  color: #000;
 }
 
 .cards {

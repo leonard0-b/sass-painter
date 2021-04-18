@@ -33,9 +33,14 @@
       }
       a {
         padding-bottom: 12px;
-        color: $linkcolor;
         font-weight: $subtitleweight;
         font-size: 15px;
+        &:last-child {
+          color: $linkcolor;
+        }  
+        h3 {
+          color: #000;
+        }
       }
     }
   }
