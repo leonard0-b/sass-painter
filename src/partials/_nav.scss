@@ -4,6 +4,13 @@
   }
 }
 
+.hamburger {
+  i {
+    color: #fff;
+    display: none;
+  }
+}
+
 .fa-angle-down {
   font-size: $caretfont;
   opacity: 0.7;
@@ -22,5 +29,35 @@
       margin: 0 25px;
       font-size: $primaryfont;
     }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .nav-menu {
+    padding: 0 20px;
+  }
+
+  .nav-list ul li {
+    margin: 0 15px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+
+  .hamburger > i {
+    display: block;
+    padding-left: 20px;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .nav-menu {
+    align-items: center;
+    padding: 15px 0;
   }
 }

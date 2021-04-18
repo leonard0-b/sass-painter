@@ -16,3 +16,9 @@ div.cmd {
     }
   }
 }
+
+@media all and (max-width: 768px) {
+  .cmd {
+    display: none;
+  }
+}
