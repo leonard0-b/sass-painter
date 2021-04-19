@@ -3,6 +3,7 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  background-image: url(./../../assets/img/bg-painter-home.jpg);
 }
 
 .jumbotron-content {
@@ -83,7 +84,7 @@
     text-align: center;
     position: relative;
     z-index: 2;
-    padding: 0 20px;
+    padding: 0 30px;
   }
 
   .jumbotron-text > h3 {
@@ -103,4 +104,7 @@
     background-color: rgba(0, 0, 0, 0.5);
   }
 
+  .jumbotron {
+    background-image: url(./../../assets/img/bg-painter-home-mobile.jpg);
+  }
 }

@@ -32,6 +32,28 @@
   }
 }
 
+.nav-list-mobile {
+  ul {
+    li {
+      color: #fff;
+      padding: 10px 10px;
+      border-top: 0.5px solid rgb(238, 238, 238);
+      border-bottom: 0.5px solid rgb(238, 238, 238);
+    }
+  }
+}
+
+ul.contacts {
+  li {
+    i {
+      color: $cmdicon;
+    }
+  }
+} 
+
+
+
+
 @media all and (max-width: 1024px) {
   .nav-menu {
     padding: 0 20px;
@@ -59,5 +81,11 @@
   .nav-menu {
     align-items: center;
     padding: 15px 0;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .nav-list-mobile {
+    display: none;
   }
 }

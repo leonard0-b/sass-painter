@@ -106,6 +106,17 @@ div.cmd ul li span {
   font-size: 13px;
 }
 
+.nav-list-mobile ul li {
+  color: #fff;
+  padding: 10px 10px;
+  border-top: 0.5px solid #eeeeee;
+  border-bottom: 0.5px solid #eeeeee;
+}
+
+ul.contacts li i {
+  color: #009cff;
+}
+
 @media all and (max-width: 1024px) {
   .nav-menu {
     padding: 0 20px;
@@ -134,11 +145,17 @@ div.cmd ul li span {
     padding: 15px 0;
   }
 }
+@media all and (max-width: 576px) {
+  .nav-list-mobile {
+    display: none;
+  }
+}
 .jumbotron {
   padding: 40px 0px;
   background-position: center;
   background-size: cover;
   position: relative;
+  background-image: url(./../../assets/img/bg-painter-home.jpg);
 }
 
 .jumbotron-content {
@@ -217,7 +234,7 @@ div.cmd ul li span {
     text-align: center;
     position: relative;
     z-index: 2;
-    padding: 0 20px;
+    padding: 0 30px;
   }
 
   .jumbotron-text > h3 {
@@ -235,6 +252,10 @@ div.cmd ul li span {
   .overlay {
     display: block;
     background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .jumbotron {
+    background-image: url(./../../assets/img/bg-painter-home-mobile.jpg);
   }
 }
 .main-title {
